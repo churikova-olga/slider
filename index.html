@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+      <!-- Dots/bullets/indicators -->
+      <div class="dot-container">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+      <!-- Full-width slides/quotes -->
+      <div class="mySlides animation">
+        <div class="circle-container">
+          <div class="circle-border">
+            <span class="circle-image">
+              <img class="slide-img" src="img/slideImg1.jpg" />
+            </span>
+          </div>
+        </div>
+        <q>Любуясь чужими садами, не забывайте ухаживать за своими цветами.</q>
+        <p class="author">- Санобер Хан</p>
+      </div>
+
+      <div class="mySlides animation">
+        <div class="circle-container">
+          <div class="circle-border">
+            <span class="circle-image">
+              <img class="slide-img" src="img/slideImg2.jpg" />
+            </span>
+          </div>
+        </div>
+        <q
+          >Не позволяйте высоким сорнякам отбрасывать тень на прекрасные цветы в
+          вашем саду.</q
+        >
+        <p class="author">- Стив Мараболи</p>
+      </div>
+
+      <div class="mySlides animation">
+        <div class="circle-container">
+          <div class="circle-border">
+            <span class="circle-image">
+              <img class="slide-img" src="img/slideImg3.jpg" />
+            </span>
+          </div>
+        </div>
+        <q>Цветы тоже вянут и опадают, но они вдохновляют всех и каждого.</q>
+        <p class="author">- Авиджит Дас</p>
+      </div>
+
+      <!-- Next/prev buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <script src="slider.js"></script>
+  </body>
+</html>
