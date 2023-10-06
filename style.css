@@ -1,0 +1,149 @@
+.slideshow-container {
+  position: relative;
+  background: linear-gradient(
+    90deg,
+    rgba(146, 89, 203, 0.5) 0%,
+    rgba(232, 214, 251, 0.5) 70%
+  );
+  width: 50%;
+  /* min-height: 600px; */
+  margin: auto;
+  border-radius: 20px;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 10px;
+  text-align: center;
+  /* height: 100%; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #484747;
+  font-weight: bold;
+  font-size: 25px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  text-decoration: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  transform: scale(1.5);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  /* background: #ddd; */
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #6a419b;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active,
+.dot:hover {
+  background-color: #fcfcfe;
+}
+
+/* Add an italic font style to all quotes */
+q {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #533a74;
+  font-style: italic;
+  margin-top: 50px;
+}
+
+/* Add a blue color to the author */
+.author {
+  color: #533a74;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.slide-img {
+  opacity: 0.7;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* .circle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.circle-border {
+  /* width: 300px;
+  height: 300px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    rgb(168 6 238 / 30%) 0%,
+    rgb(223 181 227 / 50%) 70%
+  );
+  border-radius: 50%;
+  padding: 15px;
+}
+.circle-image {
+  display: inline-block;
+  border-radius: 50%;
+  overflow: hidden;
+  height: 300px;
+  width: 300px;
+}
+.animation {
+  -webkit-animation-name: animation;
+  -webkit-animation-duration: 1.5s;
+  animation-name: animation;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes animation {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes animation {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
