@@ -1,0 +1,202 @@
+ol.vote-items-list,
+ol.vote-items-list li {
+  margin: 20px 0;
+  padding: 0;
+  border: none;
+  font-size: 100%;
+  list-style-type: none;
+}
+ol.vote-items-list li {
+  margin: 5px 0;
+}
+
+.voting-form-box {
+  font-size: 100%;
+  padding: 0.55em;
+}
+
+div.vote-item-links {
+  float: right;
+}
+.vote-item-title {
+  font-weight: bold;
+}
+div.vote-item-date {
+  font-style: italic;
+}
+div.vote-item-header {
+  margin-bottom: 0.5em;
+}
+div.vote-item-footer {
+  margin-top: 0.5em;
+}
+div.vote-item-image {
+  float: left;
+  padding-right: 0.55em;
+}
+div.vote-item-lamp {
+  display: none;
+}
+.vote-item-lamp-green span {
+  color: green;
+}
+.vote-item-lamp-red span {
+  color: red;
+}
+div.vote-clear-float {
+  clear: both;
+}
+form.vote-form {
+  margin: 0;
+}
+.starrequired {
+  color: red;
+}
+.vote-reply-field-captcha-label {
+  margin-bottom: 6px;
+}
+.vote-vote-footer {
+  display: none;
+  justify-content: center;
+  margin-top: 30px;
+}
+.vote-form-submit {
+  background-color: #6a419b;
+  border: 3px solid #533a74;
+  color: white;
+  border-radius: 10px;
+  padding: 5px 20px;
+}
+.vote-reply-field-captcha-image {
+  margin-bottom: 6px;
+}
+.vote-form-captcha {
+  margin-left: 0.55em;
+}
+
+.start-quize {
+  display: block;
+  border-radius: 10px;
+  border: 3px solid #533a74;
+  padding: 10px;
+  text-decoration: none;
+  color: #fcfcfe;
+  background-color: #6a419b;
+  width: 15%;
+  text-align: center;
+  cursor: pointer;
+}
+.start-quize:hover {
+  color: #fcfcfe;
+  background-color: #b58fe4;
+}
+/* Slideshow container */
+.slideshow-container {
+  padding: 20px 0;
+  position: relative;
+  display: none;
+  background: linear-gradient(
+    90deg,
+    rgba(146, 89, 203, 0.5) 0%,
+    rgba(232, 214, 251, 0.5) 70%
+  );
+  width: 40%;
+  /* min-height: 600px; */
+  margin: auto;
+  border-radius: 20px;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container-buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  width: auto;
+  padding: 5px 20px;
+  color: #484747;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  text-decoration: none;
+  background-color: #6a419b;
+  border: 3px solid #533a74;
+  color: white;
+  border-radius: 10px;
+}
+.visible {
+  visibility: hidden;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover,
+.vote-form-submit:hover {
+  transform: scale(1.1);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  /* background: #ddd; */
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #6a419b;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active,
+.dot:hover {
+  background-color: #fcfcfe;
+}
+
+/* Add an italic font style to all quotes */
+
+/* Add a blue color to the author */
+.animation {
+  -webkit-animation-name: animation;
+  -webkit-animation-duration: 1.5s;
+  animation-name: animation;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes animation {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes animation {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}

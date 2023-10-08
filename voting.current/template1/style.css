@@ -1,0 +1,11 @@
+.vote-form-box-button-last {
+  margin-left: 1em;
+}
+.close {
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 36px;
+}
+.modal-title {
+  color: green;
+}
